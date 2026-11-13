@@ -1,35 +1,36 @@
-# hyperframes-audio · Agent Skill
+# HyperFrames Audio
 
-hyperframes-audio：Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume。
+**Audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay.**
 
-## 内容
+## Put it to work
 
-本公开副本包含 7 个来源与许可文件；技能正文、脚本和参考文件按实际保留的包结构组织。
+Audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay.
 
-- [`LICENSE`](LICENSE)
-- [`SKILL.md`](SKILL.md)
-- [`references/attributes.md`](references/attributes.md)
-- [`references/diagnosis.md`](references/diagnosis.md)
-- [`references/fx-registry.md`](references/fx-registry.md)
-- [`references/presets.md`](references/presets.md)
-- [`scripts/carve.mjs`](scripts/carve.mjs)
+Start with the [skill instructions](SKILL.md). They describe the intended workflow, tools and inputs. Adapt them to the task and the permissions of the host you are using.
 
-## 使用入口
+This is retained skill material, not proof that a particular agent used it or that it improves results. Provider access and runtime requirements depend on the source package and your environment.
 
-先阅读 [`SKILL.md`](SKILL.md)，确认依赖、数据去向和权限要求后再使用。发布过程没有安装或执行此技能。
+## Current scope
 
-## 来源与许可
+This snapshot includes 7 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-- 上游：[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
-- [上游技能入口](https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-audio/SKILL.md)
-- [上游许可证](https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE)；类型：Apache-2.0。
-- 来源依据为本机安装器保存的包来源记录；没有把它表述为与最新上游版本逐字一致。
-- 原许可证及署名保存在 LICENSE；新增发布介绍的许可单列在 LICENSE.publication-notes。
-- 包内另有来源的材料按其自身许可处理，未确认的嵌套复制目录仍保留在本地。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 当前状态与验证边界
+## Sources and license
 
-- 已完成公开副本整理、来源依据核对和许可证补齐。
-- 未执行技能、安装依赖或验证实际提效，不将静态检查表述为运行验收。
-- 隐私、凭证、原始聊天及尚未确认可公开的材料没有纳入。
-- [来源文件与哈希清单](SOURCE_MANIFEST.csv)
+The original source keeps the license and attribution supplied with the package. See the [retained license](LICENSE) and original notices. New presentation notes, where provided, are licensed separately; they do not relicense upstream work.
+
+The license for the added presentation notes is retained in [LICENSE.publication-notes](LICENSE.publication-notes).
+
+<details>
+<summary>Reference links retained from the source notes</summary>
+
+These links were present in the project material; they have not all been independently reviewed.
+
+- https://github.com/heygen-com/hyperframes
+- https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-audio/SKILL.md
+- https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE
+
+</details>
+
+[Source paths and hashes](SOURCE_MANIFEST.csv)
